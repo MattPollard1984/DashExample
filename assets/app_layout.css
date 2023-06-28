@@ -1,0 +1,191 @@
+ /*Home Page Styling*/
+ .background {
+     background-color: #f8f8f8;
+     height: 97vh;
+     margin: 0 0 0 0;
+     border-top-color: #b85197;
+     border-top-width: medium;
+     border-top-style: solid;
+ }
+
+ .ev-image {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 60%;
+ }
+
+ .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 20%;
+ }
+
+ /*Page Selector Styling*/
+ .home-image-container {
+     display: inline-block;
+     width: 10%;
+     background-color: #1e3775;
+     text-align: left;
+     vertical-align: middle;
+     height: 3vh;
+ }
+
+ .home-image {
+     display: inline-block;
+     height: 100%;
+ }
+
+ .o-href-container,
+ .h-href-container {
+     display: inline-block;
+     height: 3vh;
+     background-color: #1e3775;
+     width: 45%;
+     vertical-align: middle;
+     box-sizing: border-box;
+ }
+
+ .link-container,
+ a {
+     display: inline-block;
+     color: white;
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 15pt;
+     text-align: center;
+     text-decoration: none;
+     vertical-align: middle;
+     height: 100%;
+     width: 100%;
+
+ }
+
+ .link-container:hover,
+ a:hover {
+     display: inline-block;
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 17pt;
+     text-align: center;
+     text-decoration: none;
+     vertical-align: middle;
+     height: 100%;
+     width: 100%;
+     background-color: #868B9A;
+ }
+
+
+ /*Origin App Styling*/
+ .map-style,
+ .plot-container {
+     width: 88%;
+     height: 95vh;
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+     vertical-align: top;
+     background-color: #868B9A;
+     background: #868B9A;
+
+
+ }
+
+ .slider-title {
+     width: 100%;
+     display: inline-block;
+     background-color: #868B9A;
+     margin: 0 0 0 0;
+     color: white;
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     font-size: small;
+     padding: 3px 21px 3px 26px;
+ }
+
+ .slider-column {
+     display: inline-block;
+     width: 18.05%;
+     margin: 0 0 0 0;
+     vertical-align: top;
+
+ }
+
+ .row {
+     background-color: #868B9A;
+ }
+
+ .rc-slider-track {
+     background-color: #243c50;
+ }
+
+ .rc-slider-rail {
+     background-color: #868B9A;
+ }
+
+ .rc-slider-dot,
+ .rc-slider-dot-active,
+ .rc-slider-handle,
+ .rc-slider-dot-active:active {
+     border-color: #243c50;
+     background-color: #31536e;
+ }
+
+ .rc-slider-mark-text-active {
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     color: white;
+ }
+
+ .button {
+     display: inline-block;
+     width: 90%;
+     height: 100%;
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     color: white;
+     background: #1e3775;
+     font-size: medium;
+     border-radius: 12px;
+     border-color: #1e3775;
+     border: none;
+     place-self: center;
+ }
+
+ .button:hover {
+     background-color: #b85197;
+ }
+
+ .dropdown {
+     display: grid;
+     width: 100%;
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     padding: 0 0 0 0;
+     font-size: small;
+
+ }
+
+ .menu-container {
+     display: inline-block;
+     width: 10%;
+     height: 100%;
+     background-color: #868B9A;
+ }
+
+ .menu-grid {
+     display: grid;
+     row-gap: 1em;
+ }
+
+ .layer-title {
+     color: white;
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     text-align: left;
+     border-bottom-style: solid;
+     border-bottom-color: lightgray;
+ }
+
+ .layer-checklist {
+     display: grid;
+     color: white;
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     font-size: medium;
+     place-self: center;
+
+ }
